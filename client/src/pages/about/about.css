@@ -1,0 +1,58 @@
+.about{
+    display: flex;
+}
+
+.aboutWrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.aboutUpdateTitle{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(6, 83, 6);
+    margin: 10px;
+    font-size: 45px;
+}
+
+.aboutIntroPara{
+    line-height: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.founderImg{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+    /* box-shadow: 5px 10px 10px rgba(173, 173, 173, 0.541); */
+}
+
+.aboutFounderTitle{
+    margin-top: 50px;
+    text-decoration: underline;
+    color: rgb(6, 83, 6);
+    font-size: 25px;
+}
+
+.fc1{
+    display: flex;
+}
+
+.founderPara{
+    margin: 40px;
+    margin-bottom: 10px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.guideList{
+    margin-top: 40px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: justify;
+}

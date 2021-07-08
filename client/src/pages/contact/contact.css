@@ -1,0 +1,119 @@
+.contact{
+    margin: 0;
+    display: flex;
+}
+
+.cc1{
+    flex: 6;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+.cc2{
+    flex: 6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(https://images.pexels.com/photos/3292512/pexels-photo-3292512.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size: cover;
+    height: calc(100vh - 50px);
+}
+
+.contactTitle{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fc5954;
+    font-weight: 600;
+}
+
+.cfc2{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(68, 66, 66);
+    padding: 40px;
+    padding-top: 0;
+    display: flex;
+    margin-top: 40px;
+    width: 350px;
+    height: 340px;
+}
+
+.contactForm{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgb(102, 100, 100);
+    width: 50%;
+    padding: 40px;
+    padding-top: 0;
+    margin-top: 40px;
+}
+
+.contactInput{
+    padding: 10px;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 2px solid gray;
+}
+
+.contactInput:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(146, 146, 146);
+    background-color: rgb(248, 225, 233);
+}
+
+.contactButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:#fc5954;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+.contactButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(240, 179, 179);
+}
+
+.contactLabel{
+    margin-top: 34px;
+    font-size: 20px;
+}
+
+.contactIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fc5954;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.contact-list{
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.contactListItem{
+    display: flex;
+    padding: 10px;
+}
+
+.contactListItem a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fc5954;
+}
+
+.contactListText{
+    margin-bottom: 20px;
+    font-size: 20px;
+}

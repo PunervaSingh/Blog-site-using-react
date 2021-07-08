@@ -1,0 +1,153 @@
+.sidebar{
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarTitle{
+    width: 80%;
+    border-top: 2px solid #a7a4a4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #222;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    height: 2px;
+    width: 300px;
+}
+
+.sidebarTitle:first-child {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.sidebarTitle span{
+    background: #fdfbfb;
+    padding: 0 10px;
+    position: relative;
+    top: -10px;
+}
+
+.sidebarImg{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.sidebarPostImg{
+    width: 250px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.sidebarInstaImg{
+    width: 45%;
+    height: 120px;
+    object-fit: cover;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.instaSidebarItem{
+    display: block;
+    margin-left: 30px;
+}
+
+.sidebarItem > img {
+    margin-top: 15px;
+}
+
+.sidebarItem > p {
+    padding: 30px;
+}
+
+.sidebarList {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.sidebarListItem{
+    display: inline-block;
+    width: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.sidebarSocial{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarIcon {
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sidebarInput{
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 5px;
+    width: 90%;
+}
+
+.sidebarInput:focus{
+    outline: none;
+    border: 2px solid rgb(73, 70, 70);
+}
+
+.sidebarButton{
+    padding: 10px;
+    width: 50%;
+    color: white;
+    background-color: lightcoral;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.sidebarPostList h4{
+    font-size: 14px;
+    line-height: 1.25;
+    margin: 0;
+    letter-spacing: 1px;
+    padding: 5px;
+    position: relative;
+    bottom: 10%;
+    right: 0;
+    left: 0;
+    width: 97%;
+    background: rgba(255,2555,255,.9);
+    text-align: center;
+    z-index: 999;
+    top: -50px;
+}
+
+.sidebarPostList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+}
+
+.sidebarAnchor{
+    text-decoration: none;
+    color: black;
+}
