@@ -1,0 +1,150 @@
+.profilepage{
+    width: 100%;
+    align-self: center;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profileContainer1{
+    width: 85%;
+    margin-left: 120px;
+}
+
+.profileBgImg{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.profilePPImg{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 40vh;
+    left: 41%;
+    border: 5px solid white;
+}
+
+.mediaAndFollowers{
+    display: flex;
+    flex-direction: row;
+}
+
+.emptySpace{
+    flex:6;
+}
+
+.ProfileSocial{
+    flex:3;
+}
+
+.ProfileFollowers{
+    display: flex;
+    flex:3;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileContent{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, +150%);
+}
+
+.profileIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fc5954;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.profileSocial{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.pfContent{
+    padding: 10px;
+    font-size: 15px;
+    color: gray;
+}
+
+.profileButton{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, +290%);
+}
+
+.profilePageButton{
+    margin-top: 100px;
+    padding: 10px;
+    width: 250px;
+    color: white;
+    background-color: #fc5954;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.profilePostInfo{
+    margin-top: 250px;
+    text-align: center;
+}
+
+.profilePostTitle{
+    margin-top: 20px;
+}
+
+/* .profilePostTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    height: 2px;
+    border-bottom: 3px solid red;
+}
+
+.profilePostTitle:first-child {
+    margin-top: 30px;
+    margin-bottom: 20px;
+} */
+
+.profilePostTitle span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    height: 2px;
+    border-bottom: 3px solid #fc5954;
+    margin-top: 40px;
+}
+
+/* hr{
+    width: 83%;
+    margin-left: 150px;
+} */

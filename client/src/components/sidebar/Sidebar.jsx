@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import axios from "axios";
 import "./sidebar.css";
 import { Link } from "react-router-dom";
+import { Context } from "../../context/Context";
 
 export default function Sidebar() {
+    const { user } = useContext(Context);
+    const PF = "http://localhost:5000/images/";
     const [cats, setCats] = useState([]);
 
     useEffect(()=>{
@@ -15,9 +18,9 @@ export default function Sidebar() {
     },[]);
     return (
         <div className="sidebar">
-            <div className="sidebarItem">
-                <h3 class="sidebarTitle"><span>USERNAME</span></h3>
-                <img className="sidebarImg" src="https://i.pinimg.com/originals/69/92/24/699224ecc2584a1ed84666f27140d214.jpg" alt="" />
+            
+            {/* {user ?(<h3 class="sidebarTitle"><span>USERNAME</span></h3>
+                <img className="sidebarImg" src={PF+user.profilePic}  alt="" />
                 <p>Some text about you here...(description) </p>
                 <div className="sidebarSocial">
                     <i className="sidebarIcon fab fa-facebook-square"></i>
@@ -26,8 +29,47 @@ export default function Sidebar() {
                     <i className="sidebarIcon fab fa-pinterest-square"></i>
                 </div>
                 <p>❤️ ___ Followers on Splog</p>
-            </div>
             
+                ):(<h3 class="sidebarTitle"><span>USERNAME</span></h3>
+                <img className="sidebarImg" src={PF+user.profilePic}  alt="" />
+                <p>Some text about you here...(description) </p>
+                <div className="sidebarSocial">
+                    <i className="sidebarIcon fab fa-facebook-square"></i>
+                    <i className="sidebarIcon fab fa-twitter-square"></i>
+                    <i className="sidebarIcon fab fa-instagram-square"></i>
+                    <i className="sidebarIcon fab fa-pinterest-square"></i>
+                </div>
+                <p>❤️ ___ Followers on Splog</p>)
+            } */}
+            {user ? (
+                    <div className="sidebarItem">
+                        <h3 class="sidebarTitle"><span>{user.username}</span></h3>
+                        <Link to="/profile"><img className="sidebarImg" src={PF+user.profilePic}  alt="" /></Link>
+                        <p>Some text about you here...(description) </p>
+                        <div className="sidebarSocial">
+                            <i className="profileIcon fab fa-facebook-square"></i>
+                            <i className="profileIcon fab fa-twitter-square"></i>
+                            <i className="profileIcon fab fa-instagram-square"></i>
+                            <i className="profileIcon fab fa-pinterest-square"></i>
+                        </div>
+                        <p>❤️ ___ Followers on Splog</p>
+                    </div> 
+                    ) 
+                    : (
+                        <div className="sidebarItem">
+                            <h3 class="sidebarTitle"><span>USERNAME</span></h3>
+                            <img className="sidebarImg" src="https://images.pexels.com/photos/1850619/pexels-photo-1850619.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                            <p>Some text about you here...(description) </p>
+                            <div className="sidebarSocial">
+                                <i className="sidebarIcon fab fa-facebook-square"></i>
+                                <i className="sidebarIcon fab fa-twitter-square"></i>
+                                <i className="sidebarIcon fab fa-instagram-square"></i>
+                                <i className="sidebarIcon fab fa-pinterest-square"></i>
+                            </div>
+                            <p>❤️ ___ Followers on Splog</p>
+                        </div>
+                    )
+                }
             <div className="sidebarItem">
             <h3 class="sidebarTitle"><span>SUBSCRIBE</span></h3>
                 <p>Subscribe to this blog...</p>

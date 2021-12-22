@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import "./settings.css";
-import Sidebar from "../../components/sidebar/Sidebar";
+// import Sidebar from "../../components/sidebar/Sidebar";
 import { Context } from "../../context/Context";
 import axios from "axios";
 
@@ -83,7 +83,7 @@ export default function Settings(){
                     </div>
                 </form>
             </div>
-            <Sidebar />
+            {/* <Sidebar /> */}
         </div>
     );
 }

@@ -3,8 +3,8 @@
 }
 
 .aboutWrapper{
-    flex: 9;
-    padding: 20px;
+    flex: 8;
+    padding: 50px 80px;
 }
 
 .aboutUpdateTitle{
@@ -48,6 +48,7 @@
     text-align: justify;
     letter-spacing: 1px;
     line-height: 20px;
+    margin-right: 0;
 }
 
 .guideList{
