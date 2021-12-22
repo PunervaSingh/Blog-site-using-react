@@ -1,6 +1,5 @@
 const router = require("express").Router();
 const User = require("../models/User");
-const Post = require("../models/Post");
 
 //GET POST
 router.get("/:id", async(req, res)=>{
