@@ -16,12 +16,7 @@
 <a id="toolchain"></a>
 ## 💻 Toolchain
 
-<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img alt="Express" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
-<img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-<img alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img alt="Visual Studio Code" src="https://img.shields.io/badge/VisualStudioCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-<img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
+<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/><img alt="Express" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/><img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/><img alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/><img alt="Visual Studio Code" src="https://img.shields.io/badge/VisualStudioCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/><img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
 
 ***Frontend*** : React(.js)
 
@@ -35,11 +30,11 @@
 <a id="features"></a>
 ## 🚀 Features
 - The user is required to register with the system, in order to access the features of the web application.
-- All blogs are renderend on the landing page. Each blog can be viewed by clicking on blog's title.
-- Any user can read the a blog post but only the user who created the post can edit/ delete the post.
-- Blogs can be searched on the basis of categories provided.
+- All blogs are displayed on the landing page. Each blog can be viewed by clicking on blog's title.
+- Any user can read a blog post but only the user who created the post can edit/ delete the post.
+- Blogs can be searched on the basis of categories.
 - Users can contact admin through contact page.
-- Users can update account information from profile page.
+- Users are provided the feature of updating account information from profile page.
 - [Add more features](#feature-request)...
 
 <a id="overview"></a>
@@ -67,18 +62,18 @@
 
 <a id="challenges"></a>
 ## 💡 Challenges faced
-- Faced problem while implementing create, read, update and delete operations on the database.
+- Faced problem while implementing create, read, update and delete operations.
 - Encountered difficulty while using hooks for the first time in react.
 - Using multi-cloud database service of MongoDB Atlas.
 
 <a id="scope"></a>
 ## 🚧 Future Scope/ What's next?
 
-- [ ] Implementing feature of following other user by goig to his/her profile.
-- [ ] Incorporating like feture on each blog.
-- [ ] Providing additional authentication features such as forgot password and other login options.
+- [ ] Implement follow feature for users on the profie page.
+- [ ] Incorporate feature of liking blog post.
+- [ ] Provide additional authentication features such as forgot password and other login options.
 - [ ] Integrate trending blogs section in the sidebar.
-- [ ] Providing latest and trending blogs on the email of subscribed users.
+- [ ] Provide latest and trending blogs on the email of subscribed users.
 
 <a id="resources"></a>
 ## 📚 Resources
@@ -96,7 +91,7 @@ Take These Steps to configure the Project(make sure npm and nodemon are already 
 
 * Clone The Repository
 ```
-git clone https://github.com/samya02/WE-Project-Disease-Predictor
+git clone https://github.com/PunervaSingh/Blog-site-using-react
 ```
 
 * Create an account on mongodb atlas and provide api key in .env file present in api folder.
