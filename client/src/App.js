@@ -9,7 +9,7 @@ import Register from "./pages/register/Register";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Profile from "./pages/profile/profile";
-import Forgot from "./pages/forgot password/Forgot";
+import Forgot from "./pages/forgot_password/Forgot";
 import {
   BrowserRouter as Router,
   Switch,
@@ -51,7 +51,7 @@ function App() {
         <Route path="/post/:postId">
           <Single />
         </Route>
-        <Route path="/profile">
+        <Route path="/profile/">
           <Profile />
         </Route>
       </Switch>

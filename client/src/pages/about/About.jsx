@@ -18,7 +18,7 @@ export default function About(){
                 <div className="founderContainer">
                     <h2 className="aboutFounderTitle">About the Founder/Creator of Splog</h2>
                     <div className="fc1">
-                        <img className="founderImg" src="https://media-exp3.licdn.com/dms/image/C4E03AQH3G82VQx6xBA/profile-displayphoto-shrink_400_400/0/1621161333060?e=1631145600&v=beta&t=WiDEe_02t87G9fS-0pmYz3qkdAR0YSV-xSCOdNaBqd4" alt="" />
+                        <img className="founderImg" src="https://media-exp1.licdn.com/dms/image/C4E03AQGLBwKkpK3fzw/profile-displayphoto-shrink_800_800/0/1640170872893?e=1645660800&v=beta&t=nTP_zdD-fxsnO6BpMj5DhOX1Glbijw6Cu6A72Z1lrtg" alt="" />
                         <p className="founderPara">
                             Hey Guyzz...Whats up! I hope you all are well and enjoying yourself while sharing your life experiences through slogs with other members. 
                             <br />
