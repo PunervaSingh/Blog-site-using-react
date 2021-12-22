@@ -3,7 +3,7 @@ import "./write.css";
 import axios from "axios";
 import {Context} from "../../context/Context";
 
-export default function(){
+export default function Write(){
     const [title,setTitle] = useState("");
     const [desc, setDesc] = useState("");
     const [file, setFile] = useState(null);
@@ -53,7 +53,7 @@ export default function(){
                         <li>You can go to the published blog and click on the edit button given on top right corner. Make changes and click on the update button to permanentize your work.</li>
                         <li>If you do not wish that to be published then you can delete the blog by clicking on the delete button given next to edit button.</li>
                     </ul>
-                </div>
+                </div> 
             </div> */}
             {file && (
                 <img 

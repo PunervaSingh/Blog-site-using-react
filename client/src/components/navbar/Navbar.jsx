@@ -9,6 +9,7 @@ export default function Navbar() {
 
     const handleLogout = () => {
         dispatch({ type: "LOGOUT" });
+        window.location.replace("/");
     };
     return (
         <div className="top">
@@ -34,7 +35,7 @@ export default function Navbar() {
             </div>
             <div className="topRight">
                 {user ? (
-                    <Link to="/settings">
+                    <Link to="/profile">
                     <img 
                         className="topImg" 
                         src={PF+user.profilePic} 
